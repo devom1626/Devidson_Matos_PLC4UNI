@@ -1,0 +1,5 @@
+https://blnlabs.com/how-to-add-usb-type-c-to-esp32-development-board/
+agregar usb
+
+https://controlreal.com/es/entradas-salidas-discretos/?noamp=mobile
+entradas npn y pnp
