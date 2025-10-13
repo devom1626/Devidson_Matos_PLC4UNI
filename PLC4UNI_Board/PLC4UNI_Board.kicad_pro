@@ -615,8 +615,48 @@
       "Root"
     ],
     [
-      "9be173fc-841b-45a6-89b7-bb2556b1d37d",
-      "PLC4UNI_BRAIN"
+      "331a08dd-fee0-4544-a181-684d5445d70e",
+      "PLC4UNI"
+    ],
+    [
+      "62eef65d-7967-4842-a2b7-f72720330b5c",
+      "CT's CIRCUIT"
+    ],
+    [
+      "e5218d9c-20b6-4436-adf7-9f480a59cb72",
+      "POWER_SUPPLY"
+    ],
+    [
+      "9252fa07-a461-4da3-92a0-639c77a63b5c",
+      "PNP_IN_1"
+    ],
+    [
+      "bbceb1ae-1a10-46a9-b372-b365a25313b0",
+      "PNP_IN_2"
+    ],
+    [
+      "cd9e19d2-d68b-4efa-bc27-b6877096a25c",
+      "PNP_IN_3"
+    ],
+    [
+      "28fb6090-a130-436b-bc71-f4ca9ac4033d",
+      "PNP_IN_4"
+    ],
+    [
+      "62cf3bfd-67bc-4541-89f7-807e8d5e5d3c",
+      "NPN_IN_1"
+    ],
+    [
+      "4cafca24-4ec5-461e-98cd-d37906b8a48d",
+      "NPN_IN_2"
+    ],
+    [
+      "d34548b1-b5a8-4271-974a-10f1d760cfea",
+      "NPN_IN_3"
+    ],
+    [
+      "162079ab-04ba-4cce-8592-ebdc4021ce60",
+      "NPN_IN_4"
     ]
   ],
   "text_variables": {}
