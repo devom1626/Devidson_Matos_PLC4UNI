@@ -1007,7 +1007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-003H:EBBA-02-C-SS-BU"
 			(at 132.08 58.42 0)
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TB'000H:terminal block"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -1216,7 +1216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-003H:EBBA-02-C-SS-BU"
 			(at 182.88 124.46 0)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-003H:EBBA-02-C-SS-BU"
 			(at 109.22 116.84 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TB'000H:terminal block"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -1425,7 +1425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TB'000H:tb"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-002H:TE_796683-4"
 			(at 182.88 102.87 0)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-002H:TE_796683-4"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -1646,7 +1646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-003H:EBBA-02-C-SS-BU"
 			(at 182.88 118.11 0)
 			(effects
 				(font
@@ -1713,7 +1713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-002H:TE_796683-4"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -1789,7 +1789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tb-003H:EBBA-02-C-SS-BU"
 			(at 182.88 111.76 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TB'000H:tb"
 			(at 109.22 77.47 0)
 			(effects
 				(font
@@ -1936,6 +1936,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
