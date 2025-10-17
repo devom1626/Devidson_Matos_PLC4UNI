@@ -2238,8 +2238,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 114.3)
-		(size 12.7 11.43)
+		(at 38.1 77.47)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2248,13 +2248,58 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 255 136 70 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0cde67e6-e458-489d-9f96-89353f091db0")
+		(property "Sheetname" "NPN_OUT_3"
+			(at 38.1 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPNO.kicad_sch"
+			(at 38.1 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 28 47 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "162079ab-04ba-4cce-8592-ebdc4021ce60")
 		(property "Sheetname" "NPN_IN_4"
-			(at 57.15 113.5884 0)
+			(at 38.1 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,12 +2308,13 @@
 			)
 		)
 		(property "Sheetfile" "NPN.kicad_sch"
-			(at 57.15 126.3146 0)
+			(at 38.1 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2280,8 +2326,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 114.3)
-		(size 12.7 11.43)
+		(at 13.97 50.8)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2290,13 +2336,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 251 97 255 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "28fb6090-a130-436b-bc71-f4ca9ac4033d")
 		(property "Sheetname" "PNP_IN_4"
-			(at 26.67 113.5884 0)
+			(at 13.97 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,12 +2352,13 @@
 			)
 		)
 		(property "Sheetfile" "PNPI.kicad_sch"
-			(at 26.67 126.3146 0)
+			(at 13.97 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2322,8 +2370,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 77.47)
-		(size 12.7 11.43)
+		(at 13.97 68.58)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2332,13 +2380,58 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 186 82 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c70b9fd-2c85-4888-9a74-fe4b75d6598b")
+		(property "Sheetname" "PNP_OUT_2"
+			(at 13.97 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNPO.kicad_sch"
+			(at 13.97 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 33.02)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 60 46 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4cafca24-4ec5-461e-98cd-d37906b8a48d")
 		(property "Sheetname" "NPN_IN_2"
-			(at 57.15 76.7584 0)
+			(at 38.1 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,12 +2440,13 @@
 			)
 		)
 		(property "Sheetfile" "NPN.kicad_sch"
-			(at 57.15 89.4846 0)
+			(at 38.1 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2364,8 +2458,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 59.69)
-		(size 12.7 11.43)
+		(at 13.97 95.25)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2374,13 +2468,102 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 30 45 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50a82bca-0b72-4de8-854a-e1ecacacf5c4")
+		(property "Sheetname" "RELAY_OUT_1"
+			(at 13.97 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RELO.kicad_sch"
+			(at 13.97 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 59.69)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 174 45 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b68527e-b274-4477-bf26-b62857358372")
+		(property "Sheetname" "PNP_OUT_1"
+			(at 13.97 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNPO.kicad_sch"
+			(at 13.97 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 24.13)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 34 65 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "62cf3bfd-67bc-4541-89f7-807e8d5e5d3c")
 		(property "Sheetname" "NPN_IN_1"
-			(at 57.15 58.9784 0)
+			(at 38.1 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,12 +2572,13 @@
 			)
 		)
 		(property "Sheetfile" "NPN.kicad_sch"
-			(at 57.15 71.7046 0)
+			(at 38.1 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2406,8 +2590,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 25.4)
-		(size 12.7 10.16)
+		(at 13.97 15.24)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2423,7 +2607,7 @@
 		)
 		(uuid "62eef65d-7967-4842-a2b7-f72720330b5c")
 		(property "Sheetname" "CT's CIRCUIT"
-			(at 26.67 24.6884 0)
+			(at 13.97 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,12 +2616,13 @@
 			)
 		)
 		(property "Sheetfile" "CT's.kicad_sch"
-			(at 26.67 36.1446 0)
+			(at 13.97 19.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2449,8 +2634,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 59.69)
-		(size 12.7 11.43)
+		(at 13.97 77.47)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2459,13 +2644,102 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 186 85 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77846b96-6dea-44e5-a22b-5d1086edd381")
+		(property "Sheetname" "PNP_OUT_3"
+			(at 13.97 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNPO.kicad_sch"
+			(at 13.97 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 86.36)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 185 95 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85aad10a-73aa-4809-9126-10d4373c8a45")
+		(property "Sheetname" "PNP_OUT_4"
+			(at 13.97 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNPO.kicad_sch"
+			(at 13.97 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 24.13)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 108 255 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9252fa07-a461-4da3-92a0-639c77a63b5c")
 		(property "Sheetname" "PNP_IN_1"
-			(at 26.67 58.9784 0)
+			(at 13.97 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,12 +2748,13 @@
 			)
 		)
 		(property "Sheetfile" "PNPI.kicad_sch"
-			(at 26.67 71.7046 0)
+			(at 13.97 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2491,8 +2766,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 77.47)
-		(size 12.7 11.43)
+		(at 38.1 95.25)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2501,13 +2776,102 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 34 64 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98dd30db-da66-4f61-9ad2-d10b0490d98b")
+		(property "Sheetname" "RELAY_OUT_2"
+			(at 38.1 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relo2.kicad_sch"
+			(at 38.1 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 59.69)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 134 47 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9471049-9258-4424-b505-9f79ead1c900")
+		(property "Sheetname" "NPN_OUT_1"
+			(at 38.1 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPNO.kicad_sch"
+			(at 38.1 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 33.02)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 125 241 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bbceb1ae-1a10-46a9-b372-b365a25313b0")
 		(property "Sheetname" "PNP_IN_2"
-			(at 26.67 76.7584 0)
+			(at 13.97 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,12 +2880,13 @@
 			)
 		)
 		(property "Sheetfile" "PNPI.kicad_sch"
-			(at 26.67 89.4846 0)
+			(at 13.97 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2533,8 +2898,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 95.25)
-		(size 12.7 11.43)
+		(at 13.97 41.91)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2543,13 +2908,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 255 104 253 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cd9e19d2-d68b-4efa-bc27-b6877096a25c")
 		(property "Sheetname" "PNP_IN_3"
-			(at 26.67 94.5384 0)
+			(at 13.97 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,12 +2924,13 @@
 			)
 		)
 		(property "Sheetfile" "PNPI.kicad_sch"
-			(at 26.67 107.2646 0)
+			(at 13.97 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2575,8 +2942,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 95.25)
-		(size 12.7 11.43)
+		(at 38.1 41.91)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2585,13 +2952,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 255 27 23 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d34548b1-b5a8-4271-974a-10f1d760cfea")
 		(property "Sheetname" "NPN_IN_3"
-			(at 57.15 94.5384 0)
+			(at 38.1 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,12 +2968,13 @@
 			)
 		)
 		(property "Sheetfile" "NPN.kicad_sch"
-			(at 57.15 107.2646 0)
+			(at 38.1 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2617,8 +2986,52 @@
 		)
 	)
 	(sheet
-		(at 26.67 41.91)
-		(size 12.7 10.16)
+		(at 38.1 86.36)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 110 49 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1a90a33-4c77-4a1a-8eec-8496a76d505e")
+		(property "Sheetname" "NPN_OUT_4"
+			(at 38.1 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPNO.kicad_sch"
+			(at 38.1 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 15.24)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2634,7 +3047,7 @@
 		)
 		(uuid "e5218d9c-20b6-4436-adf7-9f480a59cb72")
 		(property "Sheetname" "POWER_SUPPLY"
-			(at 26.67 41.1984 0)
+			(at 38.1 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,18 +3056,63 @@
 			)
 		)
 		(property "Sheetfile" "PSU_sch.kicad_sch"
-			(at 26.67 52.6546 0)
+			(at 38.1 19.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "PLC4UNI_Board"
 				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 68.58)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 145 64 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7929588-3f5f-4d9c-badf-ed92b45385fb")
+		(property "Sheetname" "NPN_OUT_2"
+			(at 38.1 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPNO.kicad_sch"
+			(at 38.1 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/331a08dd-fee0-4544-a181-684d5445d70e"
+					(page "15")
 				)
 			)
 		)
