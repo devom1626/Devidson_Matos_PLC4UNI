@@ -623,80 +623,68 @@
       "CT's CIRCUIT"
     ],
     [
-      "e5218d9c-20b6-4436-adf7-9f480a59cb72",
+      "19dcce3c-991e-4eb9-8758-67e295a30a53",
       "POWER_SUPPLY"
     ],
     [
-      "9252fa07-a461-4da3-92a0-639c77a63b5c",
-      "PNP_IN_1"
-    ],
-    [
-      "bbceb1ae-1a10-46a9-b372-b365a25313b0",
-      "PNP_IN_2"
-    ],
-    [
-      "cd9e19d2-d68b-4efa-bc27-b6877096a25c",
-      "PNP_IN_3"
-    ],
-    [
-      "28fb6090-a130-436b-bc71-f4ca9ac4033d",
-      "PNP_IN_4"
-    ],
-    [
-      "62cf3bfd-67bc-4541-89f7-807e8d5e5d3c",
+      "4ad7ba97-a455-43a1-bcd8-96a77ac27ae8",
       "NPN_IN_1"
     ],
     [
-      "4cafca24-4ec5-461e-98cd-d37906b8a48d",
+      "be1e28b7-51ad-4dcf-8a75-e47ddef6fbcd",
       "NPN_IN_2"
     ],
     [
-      "d34548b1-b5a8-4271-974a-10f1d760cfea",
+      "d66a73ac-2f77-4c21-96e0-d542a1465dd8",
       "NPN_IN_3"
     ],
     [
-      "162079ab-04ba-4cce-8592-ebdc4021ce60",
+      "936f668a-7da0-48f2-ad5f-ad570fec107a",
       "NPN_IN_4"
     ],
     [
-      "5b68527e-b274-4477-bf26-b62857358372",
-      "PNP_OUT_1"
+      "7a017967-6f6b-4157-b260-09c7846aa9c0",
+      "PNP_IN_1"
     ],
     [
-      "b9471049-9258-4424-b505-9f79ead1c900",
-      "NPN_OUT_1"
+      "cbe8ec9a-530f-48d5-999f-401b190dbf29",
+      "PNP_IN_2"
     ],
     [
-      "f7929588-3f5f-4d9c-badf-ed92b45385fb",
-      "NPN_OUT_2"
+      "4387eae3-9f3a-49e4-9858-0adc28146a0d",
+      "PNP_IN_3"
     ],
     [
-      "4c70b9fd-2c85-4888-9a74-fe4b75d6598b",
+      "b21dcf38-eada-43df-a807-1d4917019863",
+      "PNP_IN_4"
+    ],
+    [
+      "d3e292ce-c12b-44cd-ac9c-4bdf3eccfc18",
+      "RS485"
+    ],
+    [
+      "9dd420b4-935b-4e1c-80b3-c53481129f98",
       "PNP_OUT_2"
     ],
     [
-      "0cde67e6-e458-489d-9f96-89353f091db0",
-      "NPN_OUT_3"
-    ],
-    [
-      "77846b96-6dea-44e5-a22b-5d1086edd381",
+      "d52f26c0-222f-43e7-a488-474b82d7e3e7",
       "PNP_OUT_3"
     ],
     [
-      "e1a90a33-4c77-4a1a-8eec-8496a76d505e",
-      "NPN_OUT_4"
+      "2020b834-9e04-4f06-8fda-b77ed6faff3c",
+      "NPN_OUT_1"
     ],
     [
-      "85aad10a-73aa-4809-9126-10d4373c8a45",
-      "PNP_OUT_4"
+      "4cd09166-bf28-4870-a4c5-3b89dcfb4047",
+      "NPN_OUT_3"
     ],
     [
-      "50a82bca-0b72-4de8-854a-e1ecacacf5c4",
-      "RELAY_OUT_1"
+      "bdcba0a6-fe9f-4879-9122-4774cf35b9dc",
+      "NPN_OUT_1"
     ],
     [
-      "98dd30db-da66-4f61-9ad2-d10b0490d98b",
-      "RELAY_OUT_2"
+      "54f02f4d-f252-448d-96ba-66650260df5f",
+      "PNP_OUT_1"
     ]
   ],
   "text_variables": {}
