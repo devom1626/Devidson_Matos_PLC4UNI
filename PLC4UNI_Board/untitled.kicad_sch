@@ -1630,6 +1630,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 92.71) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc77aef-0422-481b-86bd-b1f850aa32a8")
+	)
+	(wire
+		(pts
 			(xy 144.78 115.57) (xy 156.21 115.57)
 		)
 		(stroke
@@ -1687,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "afdebc62-0806-46c5-8d93-8682a1956b7a")
+	)
+	(wire
+		(pts
+			(xy 190.5 95.25) (xy 186.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46607e3-84ab-4119-a289-f92a014525b5")
 	)
 	(wire
 		(pts
@@ -1814,6 +1834,17 @@
 		)
 		(uuid "3b253f22-98c9-40ea-bac6-77a34cf0f1ee")
 	)
+	(hierarchical_label "RLO2"
+		(shape input)
+		(at 190.5 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4166e3b3-0bec-45c1-a9bf-bd46534541d6")
+	)
 	(hierarchical_label "UART_IN"
 		(shape input)
 		(at 149.86 92.71 180)
@@ -1857,6 +1888,17 @@
 			(justify right)
 		)
 		(uuid "9a98fa95-046d-4553-810a-384f9c424d75")
+	)
+	(hierarchical_label "RLO1"
+		(shape input)
+		(at 190.5 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad4e9b2c-90f2-465a-a6e9-46dcc2a18f5c")
 	)
 	(hierarchical_label "PNP_MCU_2"
 		(shape input)
@@ -2018,7 +2060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 147.6248 85.09 0)
 			(effects
 				(font
@@ -2171,7 +2213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0603"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 155.956 71.374 90)
 			(effects
 				(font

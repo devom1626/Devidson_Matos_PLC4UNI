@@ -381,7 +381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:TIP41"
+		(symbol "Transistor_BJT:TIP42"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -398,7 +398,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TIP41"
+			(property "Value" "TIP42"
 				(at 6.35 0 0)
 				(effects
 					(font
@@ -418,7 +418,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+			(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -428,7 +428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+			(property "Description" "-6A Ic, -40V Vce, Power PNP Transistor, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -437,7 +437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power NPN Transistor"
+			(property "ki_keywords" "power PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -455,7 +455,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TIP41_0_1"
+			(symbol "TIP42_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -480,19 +480,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TIP41_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -517,9 +504,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -529,6 +527,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "TIP42_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -817,17 +817,7 @@
 		(at 129.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b60e64a-f196-4c5d-9825-a6f8f180fb2a")
-	)
-	(wire
-		(pts
-			(xy 129.54 60.96) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f8cb42-6aeb-43dd-9463-4a870cbb005a")
+		(uuid "58fb07b8-06a0-44f0-9592-c3e62fea3b88")
 	)
 	(wire
 		(pts
@@ -851,13 +841,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 71.12) (xy 149.86 71.12)
+			(xy 129.54 60.96) (xy 133.35 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e1fd0b1-421d-4ea3-80d2-4780ff1f2667")
+		(uuid "a44326da-fad1-427c-9145-c8e34e18cfed")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3647e7d-49be-4c3f-b073-e8fc9eef1ec1")
 	)
 	(image
 		(at 63.5 53.34)
@@ -1783,6 +1783,89 @@
 		(uuid "f2b82f04-e1d8-4488-aff9-0b70d9327d91")
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP42")
+		(at 127 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bc4df0b-b48d-4580-8f79-7eea526b7447")
+		(property "Reference" "Q9"
+			(at 132.08 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TIP42"
+			(at 132.08 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 133.35 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-6A Ic, -40V Vce, Power PNP Transistor, TO-220"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e04dfc5-52a3-45bc-bcfb-f21e17179044")
+		)
+		(pin "3"
+			(uuid "587ebb8f-05a7-4c7e-88fe-f4eaa712426a")
+		)
+		(pin "1"
+			(uuid "6a808e6a-6731-42c8-b7a0-1e80b61474f9")
+		)
+		(instances
+			(project ""
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/54f02f4d-f252-448d-96ba-66650260df5f"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/9dd420b4-935b-4e1c-80b3-c53481129f98"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d52f26c0-222f-43e7-a488-474b82d7e3e7"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 106.68 68.58 0)
 		(unit 1)
@@ -1851,90 +1934,6 @@
 				)
 				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d52f26c0-222f-43e7-a488-474b82d7e3e7"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:TIP41")
-		(at 127 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5957a1da-1ff2-4f5d-b5d6-33ac16e50533")
-		(property "Reference" "Q1"
-			(at 132.08 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TIP41"
-			(at 132.08 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 133.35 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b0bad4e1-0d2f-4115-ad00-92e851081b75")
-		)
-		(pin "1"
-			(uuid "a6f82a47-7026-49c3-bcfc-b8477fc553cf")
-		)
-		(pin "2"
-			(uuid "7ea766a2-2550-48e2-9385-86f3ce482de4")
-		)
-		(instances
-			(project ""
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/54f02f4d-f252-448d-96ba-66650260df5f"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/9dd420b4-935b-4e1c-80b3-c53481129f98"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d52f26c0-222f-43e7-a488-474b82d7e3e7"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2026,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 149.86 71.12 0)
+		(at 137.16 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2036,7 +2035,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3fff59d-c38f-4f56-b5da-d9293b2627e4")
 		(property "Reference" "#PWR038"
-			(at 149.86 74.93 0)
+			(at 137.16 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,15 +2044,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 149.86 66.04 0)
+			(at 139.7 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 71.12 0)
+			(at 137.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 71.12 0)
+			(at 137.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 149.86 71.12 0)
+			(at 137.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

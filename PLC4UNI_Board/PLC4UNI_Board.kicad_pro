@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -663,6 +663,10 @@
       "RS485"
     ],
     [
+      "ff4ff2c4-0610-4d02-8780-c5addaf8553a",
+      "RLY_OUT_2"
+    ],
+    [
       "9dd420b4-935b-4e1c-80b3-c53481129f98",
       "PNP_OUT_2"
     ],
@@ -677,6 +681,14 @@
     [
       "4cd09166-bf28-4870-a4c5-3b89dcfb4047",
       "NPN_OUT_3"
+    ],
+    [
+      "018b4bcd-6d4a-41ec-820f-2e229e91cb98",
+      "RLY_OUT_1"
+    ],
+    [
+      "f3a3755d-de95-40ce-bae8-4858fc5b9f6b",
+      "4?20mA"
     ],
     [
       "bdcba0a6-fe9f-4879-9122-4774cf35b9dc",

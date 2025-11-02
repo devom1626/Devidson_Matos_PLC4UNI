@@ -5,179 +5,6 @@
 	(uuid "4b1b2e0f-c5ec-404e-879f-1d8b95a39ccc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:SM712_SOT23"
 			(pin_names
 				(offset 1.016)
@@ -396,23 +223,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "."
-				(at 0 0 0)
+			(property "Reference" "RS1"
+				(at 19.685 39.37 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 19.685 36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:RS_DEVO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -475,7 +302,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,7 +320,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,7 +338,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,25 +356,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "CON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -558,14 +367,14 @@
 				(pin input line
 					(at 41.91 33.02 180)
 					(length 2.54)
-					(name "RGND"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -583,7 +392,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -601,7 +410,25 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 19.05 180)
+					(length 2.54)
+					(name "RGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -853,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 123.19 85.09)
+			(xy 119.38 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -883,6 +710,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 115.57) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50338194-5682-4043-b8da-ec57d5b2d697")
+	)
+	(wire
+		(pts
 			(xy 154.94 85.09) (xy 154.94 106.68)
 		)
 		(stroke
@@ -890,26 +727,6 @@
 			(type default)
 		)
 		(uuid "6cc2e743-e68c-4cab-800f-476bed04cac7")
-	)
-	(wire
-		(pts
-			(xy 130.81 85.09) (xy 154.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d9aac8-cd47-4398-ba2e-0ff5c06e3579")
-	)
-	(wire
-		(pts
-			(xy 132.08 90.17) (xy 137.16 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db64eb1-728a-47bd-933a-2fb88fcd0420")
 	)
 	(wire
 		(pts
@@ -930,6 +747,26 @@
 			(type default)
 		)
 		(uuid "a50f5b25-ef67-479b-95bb-fb536aaca383")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 119.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0e2abc-808f-4a00-b281-81fcde1b2f28")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe1b33d-5a9e-4632-bf3c-2c700719af62")
 	)
 	(wire
 		(pts
@@ -993,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 124.46 90.17)
+			(xy 119.38 90.17) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1046,72 +883,6 @@
 		(uuid "84833c0f-3d94-49d1-9f53-3808723e1205")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 146.05 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1391ce20-3565-4800-8bf7-173fcba90614")
-		(property "Reference" "#PWR060"
-			(at 146.05 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7ade141-86a4-4b7d-bcaf-82146d05c02f")
-		)
-		(instances
-			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d3e292ce-c12b-44cd-ac9c-4bdf3eccfc18"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SIMBOLOS RJ:_1")
 		(at 77.47 113.03 0)
 		(unit 1)
@@ -1137,7 +908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:RS_DEVO"
+		(property "Footprint" "TB'000H:RS485-MODULE-DEVO"
 			(at 77.47 113.03 0)
 			(effects
 				(font
@@ -1164,28 +935,28 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "4"
 			(uuid "9a93fdf9-35ad-4a39-b108-f8e48fe12ee7")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "dabc9faf-192a-4f07-a189-b11ac7fe739f")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "bd2805ad-b836-45d3-9360-a3ec232e3a8d")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "96da08d9-7042-4486-a9fc-8b2a3cb0ea32")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "dffcd451-2c89-479d-8d5c-51d1ddd711b8")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "efc8ad80-357f-49e1-90bc-3adab5744b88")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "31d0a1b8-b888-45ef-bf81-1c5ca0348a74")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "3b8bdeb4-d989-45d7-820d-7676b10e791a")
 		)
 		(instances
@@ -1264,73 +1035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 127 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b43a617-1ab3-4fb2-8b95-96221a28252d")
-		(property "Reference" "R20"
-			(at 122.174 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120 OHMS"
-			(at 128.778 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0603"
-			(at 127.254 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a9cb875-d3ac-41ad-bb26-6b187929caf6")
-		)
-		(pin "1"
-			(uuid "6d885f52-3ec8-4a5c-891a-e4b494753881")
-		)
-		(instances
-			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d3e292ce-c12b-44cd-ac9c-4bdf3eccfc18"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 91.44 180)
 		(unit 1)
@@ -1391,73 +1095,6 @@
 			(project "PLC4UNI_Board"
 				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d3e292ce-c12b-44cd-ac9c-4bdf3eccfc18"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 128.27 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f07dcf8c-73ee-47a8-a724-63dc9e0fe528")
-		(property "Reference" "R21"
-			(at 122.428 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120 OHMS"
-			(at 128.778 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0603"
-			(at 128.524 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98659594-e635-4253-9b54-5860a73e31ff")
-		)
-		(pin "1"
-			(uuid "394af416-13cf-4d16-962d-ce7c8185ab5b")
-		)
-		(instances
-			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/d3e292ce-c12b-44cd-ac9c-4bdf3eccfc18"
-					(reference "R21")
 					(unit 1)
 				)
 			)
