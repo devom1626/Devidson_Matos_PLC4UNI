@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "eea4034e-9f95-44d9-aef8-d38c1b59945d")
+	(uuid "c08d7840-7953-4680-8e8b-9203f112bec5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -268,6 +268,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS10VZ1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS10VZ1USK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS10VZ1USK.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10V, 2000W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS10VZ1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS10VZ1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -371,127 +520,189 @@
 		)
 	)
 	(junction
-		(at 90.17 69.85)
+		(at 60.96 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41c1b4fe-d733-4fa0-89a4-e2a19d4a4818")
+		(uuid "1bfc433d-fe5d-4184-9af7-5cacf477b8ff")
 	)
 	(junction
-		(at 82.55 69.85)
+		(at 60.96 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c01c315-9ebc-4e16-9933-f9ec35270e1f")
+		(uuid "29fce92e-168e-4dcf-aa5f-2c8eafc1e97e")
 	)
 	(junction
-		(at 82.55 78.74)
+		(at 83.82 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99f1369f-424b-49fd-a8bc-9782a58aec1c")
+		(uuid "491fbe8a-6352-40a5-b8c8-794495a87824")
+	)
+	(junction
+		(at 71.12 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ccbf816-9c17-4bbf-a5e8-493d817f2098")
+	)
+	(junction
+		(at 71.12 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40e07c2-64b0-4fce-9036-8689ea9a7506")
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 92.71 69.85)
+			(xy 83.82 80.01) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04bf7392-fbc1-4e3d-94c3-d602c4c21cb9")
+		(uuid "047e8771-5613-41ca-8dcf-d9d5aaf6a9d4")
 	)
 	(wire
 		(pts
-			(xy 78.74 69.85) (xy 82.55 69.85)
+			(xy 71.12 72.39) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "231f4438-3046-4fc4-8c71-93b8e5adacc6")
+		(uuid "22198f52-cd93-48e2-9a85-b4b2ac7cffbb")
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 82.55 81.28)
+			(xy 60.96 68.58) (xy 60.96 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fe37dbb-9e1d-44d3-959f-93876b732e61")
+		(uuid "3c64f145-71a5-41dc-adf1-51a0b6eb6be1")
 	)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 90.17 69.85)
+			(xy 60.96 80.01) (xy 60.96 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44068805-2c37-4211-91f4-c518f2177aed")
+		(uuid "4546ce5d-d10d-47c3-b265-11353559f1a7")
 	)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 82.55 71.12)
+			(xy 60.96 71.12) (xy 60.96 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c39d264-9c35-4264-a77c-039893839d98")
+		(uuid "4f26615b-b6d7-45e9-b6de-d7dfbd152438")
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 90.17 78.74)
+			(xy 60.96 71.12) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caa447d2-484a-41fc-a8b5-f9c9cc852cdb")
+		(uuid "52d86eec-cdf5-4c39-920b-fa8d75eb5e9d")
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 90.17 71.12)
+			(xy 83.82 78.74) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1eaee05-89cc-4590-8df5-ad5d66c3597f")
+		(uuid "5b9ab918-f1e8-4852-920f-a6596f56caf9")
 	)
-	(hierarchical_label "mA_READ"
-		(shape output)
-		(at 92.71 69.85 0)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67508777-41a1-46e5-9834-529ad71206b3")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98395a7b-70b8-400d-90a9-e4498cf6b3ac")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efad70e-293e-4a94-af32-715863636c8b")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d5847c-3f30-441a-b250-c245c3caa3a0")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 60.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea062c44-88ed-466e-a67c-b12f38d144e7")
+	)
+	(hierarchical_label "AV_ADC"
+		(shape input)
+		(at 88.9 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "36ca98d6-592d-4148-9282-768c35ed230f")
+		(uuid "cec7eea7-f3bb-42f3-9512-78e0a45136d5")
 	)
-	(hierarchical_label "mA_IN"
+	(hierarchical_label "AV_IN"
 		(shape input)
-		(at 78.74 69.85 180)
+		(at 57.15 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b48e6b06-0810-4b56-b9ef-88f9dc283326")
+		(uuid "fa482787-12a7-431a-8f12-7dddf0143453")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 81.28 0)
+		(at 60.96 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c26393b-6451-411b-80a0-935bc745a61a")
-		(property "Reference" "#PWR054"
-			(at 82.55 87.63 0)
+		(uuid "8648a2de-f2cf-47bf-a795-5c6459956529")
+		(property "Reference" "#PWR056"
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 86.36 0)
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 81.28 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 81.28 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 81.28 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,12 +746,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9281cae-7fbf-4eef-8f14-e7cb219ea668")
+			(uuid "d3273316-eb1b-416a-a001-792776981c73")
 		)
 		(instances
 			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/f3a3755d-de95-40ce-bae8-4858fc5b9f6b"
-					(reference "#PWR054")
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/e8eba2ac-e898-4906-b3da-d87b6cfccdc7"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -548,16 +759,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 74.93 0)
+		(at 71.12 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6b590fd-b1e3-4547-b291-656ff020d666")
-		(property "Reference" "C11"
-			(at 93.98 73.6599 0)
+		(uuid "c33bfa7b-4383-4d46-a754-7a3ff49e2ffe")
+		(property "Reference" "C9"
+			(at 74.93 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +777,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 93.98 76.1999 0)
+			(at 74.93 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,8 +785,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.1352 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 72.0852 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 74.93 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +804,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 74.93 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,15 +813,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fdcb3717-c529-4530-b91e-6295fd73c67f")
+			(uuid "77dd6296-d843-4e4b-919a-07527a448ab4")
 		)
 		(pin "1"
-			(uuid "685ce0a2-7a14-434d-b71f-801195fb46f1")
+			(uuid "087abdd6-ed69-4ee7-88d8-0ac3e998d9a6")
 		)
 		(instances
 			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/f3a3755d-de95-40ce-bae8-4858fc5b9f6b"
-					(reference "C11")
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/e8eba2ac-e898-4906-b3da-d87b6cfccdc7"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -618,34 +829,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 74.93 180)
+		(at 60.96 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c7dd006d-c216-4e5a-8741-11c378204a18")
-		(property "Reference" "R20"
-			(at 85.09 73.6599 0)
+		(uuid "cc471222-8910-44d1-8160-17b51ee89c99")
+		(property "Reference" "R21"
+			(at 63.5 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "120"
-			(at 85.09 76.1999 0)
+		(property "Value" "22K"
+			(at 63.5 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 84.328 74.93 90)
+			(at 59.182 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,7 +865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 74.93 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,16 +874,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1-1%"
-			(at 82.55 74.93 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,15 +883,155 @@
 			)
 		)
 		(pin "1"
-			(uuid "95220d9e-2758-4e7f-8458-4ca7ed8cce01")
+			(uuid "8e829fae-35f5-4142-b088-73d2e52c97fe")
 		)
 		(pin "2"
-			(uuid "b7a5d010-76ea-4d0d-a51d-c85b7b997f06")
+			(uuid "d5840108-2ad7-49cb-b2bf-5771c560ce23")
 		)
 		(instances
 			(project "PLC4UNI_Board"
-				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/f3a3755d-de95-40ce-bae8-4858fc5b9f6b"
-					(reference "R20")
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/e8eba2ac-e898-4906-b3da-d87b6cfccdc7"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbee5150-c392-4856-a309-1ee56d38af9f")
+		(property "Reference" "R24"
+			(at 63.5 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 63.5 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.182 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "294c2dbe-e845-43ae-8f54-59d2bc4c1f75")
+		)
+		(pin "2"
+			(uuid "e9aa8923-9146-4d4b-ae40-54e0bc8f8ff0")
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/e8eba2ac-e898-4906-b3da-d87b6cfccdc7"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PTVS10VZ1USK")
+		(at 83.82 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9e0034-6394-40dc-9449-08fc856a6a96")
+		(property "Reference" "D4"
+			(at 86.36 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS10VZ1USK"
+			(at 86.36 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+			(at 79.375 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS10VZ1USK.pdf"
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V, 2000W TVS unidirectional diode, DSN1608-2"
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2745487d-0c00-4430-9d85-4b62f719103e")
+		)
+		(pin "2"
+			(uuid "2860bdba-412f-49bc-a6e8-8e251871728a")
+		)
+		(instances
+			(project ""
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/e8eba2ac-e898-4906-b3da-d87b6cfccdc7"
+					(reference "D4")
 					(unit 1)
 				)
 			)

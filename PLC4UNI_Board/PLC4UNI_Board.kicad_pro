@@ -688,7 +688,15 @@
     ],
     [
       "f3a3755d-de95-40ce-bae8-4858fc5b9f6b",
-      "4?20mA"
+      "IN4?20mA"
+    ],
+    [
+      "e8eba2ac-e898-4906-b3da-d87b6cfccdc7",
+      "010V"
+    ],
+    [
+      "eec8f345-5e3a-4d47-b42f-cc503138b298",
+      "0_10OUT"
     ],
     [
       "bdcba0a6-fe9f-4879-9122-4774cf35b9dc",
