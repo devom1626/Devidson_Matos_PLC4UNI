@@ -1,4 +1,4 @@
-26750804974700411
+26747279994505869
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99358,13 +99358,6 @@ RS485-MODULE-DEVO NU
 9
 9
 TB'000H
-RS485-ULTRA-DEVO
-
-
-0
-8
-8
-TB'000H
 tb
 
 
@@ -105580,13 +105573,6 @@ igbt diode module
 0
 25
 25
-ULTRARS485
-Untitled
-
-
-0
-8
-8
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

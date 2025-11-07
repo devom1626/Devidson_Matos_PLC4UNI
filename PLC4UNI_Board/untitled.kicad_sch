@@ -1682,16 +1682,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 156.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1404b51e-352c-4c1c-8bf6-2f9557076b19")
-	)
-	(wire
-		(pts
 			(xy 154.94 74.93) (xy 154.94 77.47)
 		)
 		(stroke
@@ -1759,26 +1749,6 @@
 			(type default)
 		)
 		(uuid "363309a7-c5f3-439d-912a-8aac03b62abb")
-	)
-	(wire
-		(pts
-			(xy 149.86 92.71) (xy 156.21 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d1dce7-70a9-4a16-b883-9aa9b919f013")
-	)
-	(wire
-		(pts
-			(xy 149.86 97.79) (xy 156.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419c3b7d-d3dd-4ef1-8906-1e9bc4462392")
 	)
 	(wire
 		(pts
@@ -1952,6 +1922,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c222b4df-f564-48c9-8391-7cde1188711c")
+	)
+	(wire
+		(pts
 			(xy 190.5 95.25) (xy 186.69 95.25)
 		)
 		(stroke
@@ -1969,6 +1949,16 @@
 			(type default)
 		)
 		(uuid "c9f693b4-edb7-41a8-9c4e-e951d7d572b9")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d99ab6-8ded-4b1c-86cf-592c27631584")
 	)
 	(wire
 		(pts
@@ -2009,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "df198906-19f0-4781-97bb-620f7f372157")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c0cf70-ba4a-4cc2-ad84-befe4498894b")
 	)
 	(wire
 		(pts
@@ -2086,7 +2086,7 @@
 	)
 	(hierarchical_label "UART_OUT"
 		(shape bidirectional)
-		(at 149.86 95.25 180)
+		(at 144.78 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2130,7 +2130,7 @@
 	)
 	(hierarchical_label "UART_IN"
 		(shape bidirectional)
-		(at 149.86 92.71 180)
+		(at 144.78 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 	)
 	(hierarchical_label "mA_READ"
 		(shape bidirectional)
-		(at 149.86 97.79 180)
+		(at 144.78 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)

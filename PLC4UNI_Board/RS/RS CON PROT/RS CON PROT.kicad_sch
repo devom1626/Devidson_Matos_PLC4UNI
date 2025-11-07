@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e77447d2-c968-4cb0-9fdf-d0be8936bd34")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 119.38 65.405)
+		(size 59.055 59.055)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c3289a0-42c0-47b2-8eb1-cf70ff92cd48")
+		(property "Sheetname" "RS_mod_pro"
+			(at 119.38 64.6934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS_MOD_PRO.kicad_sch"
+			(at 119.38 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RS CON PROT"
+				(path "/e77447d2-c968-4cb0-9fdf-d0be8936bd34"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
