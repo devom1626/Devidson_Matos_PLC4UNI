@@ -125,19 +125,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 1.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.28,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 4,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -482,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -678,6 +678,10 @@
     [
       "ff4ff2c4-0610-4d02-8780-c5addaf8553a",
       "RLY_OUT_2"
+    ],
+    [
+      "8cceed92-d7b7-44e6-8972-52061519037a",
+      "mA_INTERFAZ_OUT"
     ],
     [
       "9dd420b4-935b-4e1c-80b3-c53481129f98",

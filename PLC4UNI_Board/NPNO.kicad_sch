@@ -1950,7 +1950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND"
 			(at 71.12 59.69 0)
 			(effects
 				(font

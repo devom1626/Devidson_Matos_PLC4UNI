@@ -1884,7 +1884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND"
 			(at 106.68 73.66 0)
 			(effects
 				(font
