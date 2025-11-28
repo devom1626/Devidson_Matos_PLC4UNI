@@ -1791,7 +1791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND3"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -2033,7 +2033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 97.79 53.975 0)
 			(effects
 				(font

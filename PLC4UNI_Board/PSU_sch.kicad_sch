@@ -178,6 +178,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N5819"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_4ms_Inductor:6.8uH_1.0A_4018"
 			(pin_numbers
 				(hide yes)
@@ -1755,10 +1905,10 @@
 		)
 	)
 	(junction
-		(at 91.44 91.44)
+		(at 91.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03e2329b-bf6b-48b8-99b5-b9a5b90ac9a7")
+		(uuid "3f1b90fe-fa66-44bc-871f-96b5dd56af0e")
 	)
 	(junction
 		(at 168.91 74.93)
@@ -1783,6 +1933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632309f2-d851-4193-ad61-89e40e990fe6")
+	)
+	(junction
+		(at 91.44 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e1522b3-3570-496a-8381-4e0adeb5a77b")
 	)
 	(junction
 		(at 143.51 92.71)
@@ -1860,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 87.63) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572ffa2e-29ce-40f7-b504-8f78a80521ec")
+	)
+	(wire
+		(pts
 			(xy 165.1 68.58) (xy 165.1 74.93)
 		)
 		(stroke
@@ -1920,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 90.17) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e10d3f3-14b1-4ead-a90d-c43f7901bf2a")
+	)
+	(wire
+		(pts
 			(xy 124.46 90.17) (xy 138.43 90.17)
 		)
 		(stroke
@@ -1947,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "8e9e541f-81d4-4733-b72e-72d8b9797155")
+	)
+	(wire
+		(pts
+			(xy 91.44 90.17) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dcf87e-0b8e-43f1-9a1e-4bb0e62b4784")
 	)
 	(wire
 		(pts
@@ -1990,16 +2176,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18ecd38-85f4-4380-8839-b8f8ea0a0f8d")
-	)
-	(wire
-		(pts
 			(xy 165.1 74.93) (xy 168.91 74.93)
 		)
 		(stroke
@@ -2027,6 +2203,16 @@
 			(type default)
 		)
 		(uuid "c11b56f6-c1f7-48bc-985f-39c3130fcdbc")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8138641-e648-43f4-9d2a-1bcef1c92940")
 	)
 	(wire
 		(pts
@@ -2090,13 +2276,24 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 91.44 100.33)
+			(xy 91.44 99.06) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f481283a-ed75-4141-b5c7-abf798ab48c0")
+	)
+	(hierarchical_label "5vusb"
+		(shape input)
+		(at 82.55 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4fe9253-137a-4652-9be4-e8963fc3a3f0")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2183,7 +2380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "62k"
 			(at 157.48 97.7899 0)
 			(effects
 				(font
@@ -2590,6 +2787,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 91.44 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d9fa181-420d-4175-8189-b18956e078a6")
+		(property "Reference" "D10"
+			(at 83.82 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 81.788 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 95.885 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c843acf7-584f-4c3f-9db3-7366be0be5da")
+		)
+		(pin "1"
+			(uuid "fd87c169-7a9d-4498-b488-6483c0914449")
+		)
+		(instances
+			(project ""
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f/19dcce3c-991e-4eb9-8758-67e295a30a53"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 168.91 78.74 0)
 		(unit 1)
@@ -2686,7 +2952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30,9k"
 			(at 157.48 88.8999 0)
 			(effects
 				(font
@@ -2695,7 +2961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 155.956 87.884 90)
 			(effects
 				(font
@@ -2763,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 85.3948 0)
 			(effects
 				(font
@@ -2824,7 +3090,7 @@
 		(fields_autoplaced yes)
 		(uuid "adc0a6cb-04f3-4adc-ac31-0cceb5d0d2ad")
 		(property "Reference" "C4"
-			(at 147.32 86.3599 0)
+			(at 147.32 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,8 +3098,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 147.32 88.8999 0)
+		(property "Value" "100pf"
+			(at 147.32 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +3107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.4752 91.44 0)
 			(effects
 				(font
@@ -2869,11 +3135,12 @@
 			)
 		)
 		(property "volt" "10v"
-			(at 143.51 87.63 0)
+			(at 147.32 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2918,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_ANR6028"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5040S"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -3237,7 +3504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 100.33 0)
+		(at 91.44 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3246,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90af61f-7cb5-4fa7-92de-c9586adb4c1e")
 		(property "Reference" "#PWR012"
-			(at 91.44 106.68 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 105.41 0)
+			(at 91.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 100.33 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 100.33 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 100.33 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3570,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 91.44 83.82 0)
+		(at 91.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3312,7 +3579,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce0e99d-85a7-4abe-852e-6586738d4dc1")
 		(property "Reference" "#PWR011"
-			(at 91.44 87.63 0)
+			(at 91.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3588,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 91.44 78.74 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 83.82 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 83.82 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 83.82 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

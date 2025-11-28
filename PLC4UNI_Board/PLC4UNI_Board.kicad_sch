@@ -2985,6 +2985,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 139.7) (xy 225.425 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa12f2b-880e-4e53-b6c4-425562336d60")
+	)
+	(wire
+		(pts
 			(xy 109.22 166.37) (xy 113.03 166.37)
 		)
 		(stroke
@@ -3095,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 134.62) (xy 225.425 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b8662c-aaf4-4bef-96b5-a6e66abeab46")
+	)
+	(wire
+		(pts
 			(xy 109.22 158.75) (xy 113.03 158.75)
 		)
 		(stroke
@@ -3112,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "77a6227e-e792-443e-8c1c-d78c30cf905e")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbd612a-8f17-4bd6-b2b1-b42b007ed452")
 	)
 	(wire
 		(pts
@@ -3385,6 +3415,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 137.16) (xy 225.425 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b151b078-88da-476e-a76c-8c5f10283cc8")
+	)
+	(wire
+		(pts
 			(xy 170.18 88.9) (xy 167.64 88.9)
 		)
 		(stroke
@@ -3575,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 27.94) (xy 100.965 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e08411-e90f-4302-b051-2e0f62e5f300")
+	)
+	(wire
+		(pts
 			(xy 76.2 167.64) (xy 74.93 167.64)
 		)
 		(stroke
@@ -3642,6 +3692,16 @@
 			(type default)
 		)
 		(uuid "f4af36b9-89a8-471d-9fce-59b117ff05c3")
+	)
+	(wire
+		(pts
+			(xy 125.73 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f685c3a4-04ed-41a6-9d72-a599629a34f7")
 	)
 	(wire
 		(pts
@@ -3780,7 +3840,7 @@
 		)
 		(uuid "1280a4da-4b5a-42ef-9e0b-1adf0a32fbf9")
 	)
-	(hierarchical_label "PNP_MCU_1"
+	(hierarchical_label "PNP_MCU_3"
 		(shape input)
 		(at 199.39 55.88 0)
 		(effects
@@ -3911,6 +3971,17 @@
 			(justify left)
 		)
 		(uuid "43c61153-ab2c-4c0d-95bd-51d8760265b7")
+	)
+	(hierarchical_label "5vusb"
+		(shape input)
+		(at 99.06 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44a08d6d-1533-4f9b-ac03-07c292116a6b")
 	)
 	(hierarchical_label "NPN_I3"
 		(shape input)
@@ -4110,6 +4181,17 @@
 		)
 		(uuid "7e0fae31-fd7b-476e-9ffb-00d88498f7a2")
 	)
+	(hierarchical_label "5vusb"
+		(shape input)
+		(at 223.52 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e36c3a9-8817-479f-b0b1-0ff8dad4b4a8")
+	)
 	(hierarchical_label "NPN_MCU_2"
 		(shape input)
 		(at 171.45 41.91 0)
@@ -4208,6 +4290,17 @@
 			(justify left)
 		)
 		(uuid "a063ca03-fac6-4fda-97de-f9c803cfa770")
+	)
+	(hierarchical_label "D-minus"
+		(shape bidirectional)
+		(at 127 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a071de91-5258-4072-89db-98ada5631d6a")
 	)
 	(hierarchical_label "RS_485-B"
 		(shape bidirectional)
@@ -4462,6 +4555,17 @@
 		)
 		(uuid "e613898f-e415-4491-b6f5-c755b81efda3")
 	)
+	(hierarchical_label "D-plus"
+		(shape bidirectional)
+		(at 127 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8b9dacf-a3e7-44e9-a2fe-f05baf32e5e7")
+	)
 	(hierarchical_label "mA_IN"
 		(shape bidirectional)
 		(at 109.22 148.59 180)
@@ -4483,6 +4587,17 @@
 			(justify left)
 		)
 		(uuid "ebb8ca93-73a1-443b-8852-77668e04e7ca")
+	)
+	(hierarchical_label "D-plus"
+		(shape bidirectional)
+		(at 223.52 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec2a2178-20f7-4214-ace5-73fb939001fe")
 	)
 	(hierarchical_label "PNP_I1"
 		(shape bidirectional)
@@ -4550,6 +4665,17 @@
 		)
 		(uuid "f7a7e041-b19b-4b43-81b3-b5e2afab063a")
 	)
+	(hierarchical_label "D-minus"
+		(shape bidirectional)
+		(at 223.52 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7b079de-f34e-4d0c-a3d6-78145f0b4884")
+	)
 	(hierarchical_label "RS_485-B"
 		(shape bidirectional)
 		(at 33.02 41.91 180)
@@ -4579,7 +4705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND"
 			(at 96.266 168.148 0)
 			(effects
 				(font
@@ -4956,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND3"
 			(at 89.154 179.07 0)
 			(effects
 				(font
@@ -5138,7 +5264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 98.298 144.78 0)
 			(effects
 				(font
@@ -5334,6 +5460,78 @@
 		)
 	)
 	(sheet
+		(at 225.425 130.81)
+		(size 24.765 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0711cefc-0fca-45de-b7f9-b6ff4eba3568")
+		(property "Sheetname" "usb-c"
+			(at 225.425 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 225.425 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D-minus" input
+			(at 225.425 134.62 180)
+			(uuid "6c943664-db03-4127-92a6-af3575e8b6c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-plus" input
+			(at 225.425 137.16 180)
+			(uuid "562fe017-d5ed-4b80-8c66-2cd722e65dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5vusb" input
+			(at 225.425 139.7 180)
+			(uuid "d8b90114-a9ba-486f-a97c-4e22d5e0ebf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.965 26.035)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
@@ -5367,6 +5565,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "5vusb" input
+			(at 100.965 27.94 180)
+			(uuid "ce7fd618-918f-4a24-9a5a-c2a9b81b4099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -5700,6 +5908,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "D-minus" bidirectional
+			(at 125.73 77.47 0)
+			(uuid "1590aa88-9401-4024-b2f1-e40b90bfa7a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-plus" bidirectional
+			(at 125.73 74.93 0)
+			(uuid "dc944a39-a875-4d50-8274-324736327e96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

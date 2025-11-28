@@ -1812,6 +1812,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6688d219-b5ba-4c43-94d3-bfe36f76014d")
+	)
+	(wire
+		(pts
 			(xy 144.78 115.57) (xy 156.21 115.57)
 		)
 		(stroke
@@ -1819,6 +1829,16 @@
 			(type default)
 		)
 		(uuid "6a14d2ee-eb65-4cb5-bfec-19ec60d08834")
+	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77985409-8c52-4717-9b94-0563a2f070d6")
 	)
 	(wire
 		(pts
@@ -2139,6 +2159,17 @@
 		)
 		(uuid "64ee4633-b2ce-4a19-a396-51ebe1675c2d")
 	)
+	(hierarchical_label "D-plus"
+		(shape input)
+		(at 190.5 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75c3dfbf-7025-4e4b-81ee-0a23a72b75ce")
+	)
 	(hierarchical_label "NPN_MCO_2"
 		(shape input)
 		(at 144.78 123.19 180)
@@ -2248,6 +2279,17 @@
 			(justify right)
 		)
 		(uuid "e8766e41-90be-4e0b-90ea-3b2791680d08")
+	)
+	(hierarchical_label "D-minus"
+		(shape input)
+		(at 190.5 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eac38657-2fa4-486b-afd1-30ebb4e2d0b4")
 	)
 	(hierarchical_label "SEL"
 		(shape bidirectional)
