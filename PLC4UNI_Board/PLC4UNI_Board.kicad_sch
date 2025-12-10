@@ -2785,6 +2785,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220625dc-63af-4a8d-bc31-3ec456b2437e")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d77cd7-7711-49de-a63e-b2f9765c24ee")
+	)
+	(wire
+		(pts
 			(xy 57.15 41.91) (xy 64.77 41.91)
 		)
 		(stroke
@@ -2905,6 +2925,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 137.16) (xy 168.275 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4cb7cd-7bca-4eea-a4d9-84227c3be16d")
+	)
+	(wire
+		(pts
 			(xy 55.88 76.2) (xy 64.77 76.2)
 		)
 		(stroke
@@ -2995,6 +3025,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 139.7) (xy 168.275 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d51f78-8b99-4845-a578-f56ba3dfe2fe")
+	)
+	(wire
+		(pts
 			(xy 109.22 166.37) (xy 113.03 166.37)
 		)
 		(stroke
@@ -3055,6 +3095,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 66.04) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b479cd4-d3f3-42cc-8498-f4aa9481031a")
+	)
+	(wire
+		(pts
 			(xy 74.93 147.32) (xy 76.2 147.32)
 		)
 		(stroke
@@ -3072,6 +3122,16 @@
 			(type default)
 		)
 		(uuid "5c67e819-4f9a-492b-a4eb-f2b0302f2ae6")
+	)
+	(wire
+		(pts
+			(xy 166.37 144.78) (xy 168.275 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fed5b42-2125-425c-b714-31d9ed83105e")
 	)
 	(wire
 		(pts
@@ -3292,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "92b025cf-f53d-4b95-adf3-c0dcd5f06086")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 168.275 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958715ed-93d9-442e-a980-6334dd247e9a")
 	)
 	(wire
 		(pts
@@ -3884,6 +3954,17 @@
 		)
 		(uuid "1909b556-7943-4d03-8bae-cb38b5372e07")
 	)
+	(hierarchical_label "CMD{slash}DI"
+		(shape input)
+		(at 166.37 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1af9e111-7245-4899-a80a-9895cee2d1ca")
+	)
 	(hierarchical_label "COM"
 		(shape bidirectional)
 		(at 76.2 160.02 0)
@@ -4082,6 +4163,17 @@
 		)
 		(uuid "677a0f41-c304-4cf9-8f90-4e32f9f2a9e9")
 	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 166.37 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ca19a5d-9bab-4758-9557-75e5736ce312")
+	)
 	(hierarchical_label "PNP_O3"
 		(shape input)
 		(at 170.18 109.22 0)
@@ -4170,6 +4262,17 @@
 		)
 		(uuid "7c1ccc0b-5399-42c1-83f5-d0092bf3777b")
 	)
+	(hierarchical_label "CMD{slash}DI"
+		(shape input)
+		(at 127 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cb5c7bf-3da4-49cd-bc54-b801cdea003b")
+	)
 	(hierarchical_label "AV_IN"
 		(shape bidirectional)
 		(at 109.22 163.83 180)
@@ -4214,6 +4317,17 @@
 		)
 		(uuid "83f49258-bc08-4f4e-add8-74139ce926c9")
 	)
+	(hierarchical_label "CS{slash}CD"
+		(shape input)
+		(at 166.37 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8552c864-4842-457f-a1aa-b74ef91a4d8e")
+	)
 	(hierarchical_label "NPN_I2"
 		(shape input)
 		(at 171.45 39.37 0)
@@ -4224,6 +4338,17 @@
 			(justify left)
 		)
 		(uuid "8ea32fd3-c210-416a-9c42-c075689be845")
+	)
+	(hierarchical_label "DO"
+		(shape input)
+		(at 127 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f6ded46-4d63-4722-aab3-0e90f95a2213")
 	)
 	(hierarchical_label "mA_IN"
 		(shape bidirectional)
@@ -4643,6 +4768,17 @@
 		)
 		(uuid "f628867e-2995-4e98-81ec-d8e9ff79d5fc")
 	)
+	(hierarchical_label "DO"
+		(shape input)
+		(at 166.37 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f65ae358-01b3-4a82-939f-6abd1e0599c4")
+	)
 	(hierarchical_label "VOLTAGE_AOUTPUT"
 		(shape bidirectional)
 		(at 31.75 78.74 180)
@@ -4653,6 +4789,17 @@
 			(justify right)
 		)
 		(uuid "f6fbc66a-bcb8-4016-beb0-b7abe568a89c")
+	)
+	(hierarchical_label "CS{slash}CD"
+		(shape input)
+		(at 127 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7455572-4736-4a54-8825-62f29497a898")
 	)
 	(hierarchical_label "NPN_O2"
 		(shape input)
@@ -5930,6 +6077,36 @@
 				(justify right)
 			)
 		)
+		(pin "CMD{slash}DI" input
+			(at 125.73 71.12 0)
+			(uuid "16814c01-e308-4529-b4a6-d1d99c975095")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS{slash}CD" input
+			(at 125.73 68.58 0)
+			(uuid "c73b63f1-f4eb-4ef9-90ed-0a3c09c97007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DO" input
+			(at 125.73 66.04 0)
+			(uuid "93502e58-d8b0-4604-8aec-6084ee1c0e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PLC4UNI_Board"
 				(path "/3f95a48a-e63f-444a-b104-97d170acd68f"
@@ -6961,6 +7138,88 @@
 			(project "PLC4UNI_Board"
 				(path "/3f95a48a-e63f-444a-b104-97d170acd68f"
 					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.275 133.985)
+		(size 22.225 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed5a263b-d292-4f44-b064-66c4df060b64")
+		(property "Sheetname" "SD"
+			(at 168.275 133.2734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDC.kicad_sch"
+			(at 168.275 154.8896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CMD{slash}DI" input
+			(at 168.275 137.16 180)
+			(uuid "2b4d3887-8d22-4a8e-82b1-25efdee4c9e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS{slash}CD" input
+			(at 168.275 139.7 180)
+			(uuid "24fc7bad-13ec-42ae-ad81-10e57b389a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DO" input
+			(at 168.275 142.24 180)
+			(uuid "b7c4b2ac-8a56-48d8-b45d-f3f6f6622c2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 168.275 144.78 180)
+			(uuid "3a834b42-dcb0-4d46-9050-b9959684f922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PLC4UNI_Board"
+				(path "/3f95a48a-e63f-444a-b104-97d170acd68f"
+					(page "27")
 				)
 			)
 		)

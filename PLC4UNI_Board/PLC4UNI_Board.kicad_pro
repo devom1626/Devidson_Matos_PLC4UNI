@@ -129,16 +129,16 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.28,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.3,
         "min_resolved_spokes": 4,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.2,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.8,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -482,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PLC4UNI_Board.step",
       "svg": "",
       "vrml": ""
     },
@@ -726,6 +726,10 @@
     [
       "0711cefc-0fca-45de-b7f9-b6ff4eba3568",
       "usb-c"
+    ],
+    [
+      "ed5a263b-d292-4f44-b064-66c4df060b64",
+      "SD"
     ]
   ],
   "text_variables": {}
