@@ -927,6 +927,17 @@
 			(uuid "2c82f223-3228-4f71-a9e2-1b735a748adf")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/devo1/Downloads/CQ-USB-C16PSMT01--3DModel-STEP-1.STEP"
+			(offset
+				(xyz 0 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "usb c male:USB-C-SMD_USBC1-AM-063"
 		(layer "F.Cu")

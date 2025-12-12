@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "PLC4UNI_Board.step",
+      "step": "../assamble step/PLC4UNI_Board.step",
       "svg": "",
       "vrml": ""
     },

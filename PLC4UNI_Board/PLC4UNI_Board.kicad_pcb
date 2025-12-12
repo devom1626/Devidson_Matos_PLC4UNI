@@ -3,15 +3,15 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 3.01)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "B")
 	(layers
-		(0 "F.Cu" mixed)
-		(4 "In1.Cu" mixed)
-		(6 "In2.Cu" mixed)
-		(2 "B.Cu" mixed)
+		(0 "F.Cu" power)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" jumper)
+		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
@@ -74,6 +74,120 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 4"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 5"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 6"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 7"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 8"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 9"
 				(type "prepreg")
 				(thickness 0.1)
 				(material "FR4")
@@ -4378,7 +4492,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/EASYEDA_MODELS/USB-C-TH_HX-TYPE-C-16P-180-LC-BH10.0-TYPE-C-VERTICAL.step"
 			(offset
-				(xyz 0 0 -2.1)
+				(xyz 1000 0 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4396,6 +4510,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/devo1/Desktop/REPO/assamble step/SDMOD.step"
+			(offset
+				(xyz -180.5 -3 -73)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -16780,6 +16905,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/devo1/Downloads/175429444-3-1-282856-8/1-282856-8.stp"
+			(offset
+				(xyz 42.5 0 19.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
+		(model "C:/Users/devo1/Downloads/175430437-3-0395432018/395432018.stp"
+			(offset
+				(xyz 42.5 0 8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 		(layer "F.Cu")
@@ -18359,15 +18506,26 @@
 			(uuid "638b5d2c-f02a-49c2-949e-1151cc603cfb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm.step"
+		(model "C:/Users/devo1/Downloads/175429444-3-1-282856-8/1-282856-8.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 42.5 0 19)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/devo1/Downloads/175430437-3-0395432018/395432018.stp"
+			(offset
+				(xyz 42.5 0 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
 			)
 		)
 	)
@@ -23990,6 +24148,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/devo1/Desktop/REPO/usb c.step"
+			(offset
+				(xyz -111 -3 -76.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
@@ -26273,6 +26442,29 @@
 			(uuid "bbe87e18-03a8-4d91-bcfc-5a691a882e9b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/RS/RS CON PROT/RS CON PROT.step"
+			(hide yes)
+			(offset
+				(xyz -25.5 21.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/devo1/Desktop/REPO/RS/RS CON PROT/RS CON PROT.step"
+			(offset
+				(xyz -25.5 21.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
@@ -31333,6 +31525,82 @@
 			(font
 				(size 0.4 0.4)
 				(thickness 0.1)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "In1.Cu")
+		(uuid "afd41251-2e8d-4f4b-9626-374074af238b")
+		(pts
+			(xy 185.25 137.675) (xy 172.2 137.675)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "13,05"
+			(at 178.725 135.875 0)
+			(layer "In1.Cu")
+			(uuid "afd41251-2e8d-4f4b-9626-374074af238b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "In1.Cu")
+		(uuid "f544073d-9f46-4902-9a73-457ab10d94e8")
+		(pts
+			(xy 172.216596 99) (xy 173 140.5)
+		)
+		(height -6.116596)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "41,5"
+			(at 164.3 119.75 90)
+			(layer "In1.Cu")
+			(uuid "f544073d-9f46-4902-9a73-457ab10d94e8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
 			)
 		)
 	)
